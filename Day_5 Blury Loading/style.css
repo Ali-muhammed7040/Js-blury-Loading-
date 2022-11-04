@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    height: 100vh;
+}
+.bg{
+    background-image: url('./images/jw9iheex0py31.jpg');
+    position: absolute;
+    top:-30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    /* height: 100vh; */
+    z-index: -1;
+    filter: blur(0px);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
